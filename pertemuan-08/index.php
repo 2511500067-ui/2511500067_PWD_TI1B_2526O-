@@ -54,12 +54,16 @@ endif;
 
     <section id="about">
       <?php
-      $nim = 2511500067;
-      $NIM = '2511500067';
-      $nama = "Yozalia Ilmandra";
-      $Nama = 'Yozalia Ilmandra';
-      $tempat = "Toboali";
-      ?>
+    $NIM = "2511500067";
+    $Nama_lengkap = "Yozalia ilmandra";
+    $Tempat_lahir = "Toboali";
+    $Tanggal_lahir = "31 Juli 2006";
+    $Hobby = "Traveling";
+    $Pasangan = "Single";
+    $Pekerjaan = "Mahasiswi";
+    $Nama_Orang_Tua = "Ilyas Rusmini";
+    $Nama_Kakak = "Yayan Ilmandra, Yulistia Ilmandra, Yessi ilmandra";
+    ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
         <?php
@@ -70,17 +74,15 @@ endif;
         <?php
         echo $Nama;
         ?> &#128526;
-       <section id="about">
-      <h2>Kontak Saya</h2>
-      <p><strong>NIM:</strong> 2511500067</p>
-      <p><strong>Nama Lengkap:</strong> Yozalia Ilmandra</p>
-      <p><strong>Tempat Lahir:</strong> Toboali</p>
-      <p><strong>Tanggal Lahir:</strong> 31 Juli 2006</p>
-      <p><strong>Hobby:</strong> Traveling</p>
-      <p><strong>Pasangan:</strong> Single</p>
-      <p><strong>Pekerjaan:</strong> Mahasiswi</p>
-      <p><strong>Nama Orang Tua:</strong> Ilyas Rusmini</p>
-      <p><strong>Nama Kakak:</strong> Yayan Ilmandra, Yulistia Ilmandra, Yessi Ilmandra</p>
+      </p>
+      <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
+      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
+      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
+      <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
+      <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
+      <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
+      <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
+      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
     </section>
 
     <section id="contact">
