@@ -10,3 +10,4 @@ Hari ini, kamis 4 desember 2025 saya belajar:<br>
 <li> membuat db_pwd2025</li>
 <li> membuat tabel tbl_tamu</li>
 <li> menambahkan read.php</li>
+<li>mengisi baris baris cnama, cemail</li>
