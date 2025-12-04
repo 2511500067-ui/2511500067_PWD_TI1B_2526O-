@@ -12,3 +12,4 @@ Hari ini, kamis 4 desember 2025 saya belajar:<br>
 <li> menambahkan read.php</li>
 <li> mengisi baris baris cnama, cemail</li>
 <li> menambahkan read_inc</li>
+<li> mengubah tampilkan biodata menjadi read_inc.php di index.php</li>
