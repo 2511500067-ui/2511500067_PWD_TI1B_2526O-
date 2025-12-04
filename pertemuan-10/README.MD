@@ -7,3 +7,4 @@ Hari ini, kamis 4 desember 2025 saya belajar:<br>
 <ol>
 <li> menambahkan file koneksi.php</li>
 <li> mengekstrak dari bahan ajar ke pertemuan10</li>
+<li> membuat db_pwd2025</li>
