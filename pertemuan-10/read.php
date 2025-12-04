@@ -11,13 +11,13 @@ $q = mysqli_query($conn, $sql);
         <th>Email</th>
         <th>Pesan</th>
     </tr>
-    
+
     <?php while ($row = mysqli_fetch_assoc($q)) : ?>
         <tr>
             <td><?= $row['cid']; ?></td>
-            <td><?= htmlspecialchars($row['nama']); ?></td>
-            <td><?= htmlspecialchars($row['email']); ?></td>
-            <td><?= nl2br(htmlspecialchars($row['pesan'])); ?></td>
+            <td><?= htmlspecialchars($row['cnama']); ?></td>
+            <td><?= htmlspecialchars($row['cemail']); ?></td>
+            <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
         </tr>
     <?php endwhile; ?>
 </table>
