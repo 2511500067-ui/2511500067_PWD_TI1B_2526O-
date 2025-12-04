@@ -85,11 +85,11 @@ require_once __DIR__ . '/fungsi.php';
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-
     </section>
 
     <?php
     $biodata = $_SESSION["biodata"] ?? [];
+
     $fieldConfig = [
       "nim" => ["label" => "NIM:", "suffix" => ""],
       "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
@@ -106,9 +106,8 @@ require_once __DIR__ . '/fungsi.php';
 
     <section id="about">
       <h2>Tentang Saya</h2>
-      <?= tampilkanBiodata($fieldConfig, $biodata); ?>
+      <?= tampilkanBiodata($fieldConfig, $biodata) ?>
     </section>
-
 
     <section id="contact">
       <h2>Kontak Kami</h2>
@@ -132,19 +131,19 @@ require_once __DIR__ . '/fungsi.php';
       </form>
 
       <?php
-      $kontak = $_SESSION["kontak"] ?? [];
-      $fielkontak = [
+      $contact = $_SESSION["contact"] ?? [];
+
+      $fieldContact = [
         "nama" => ["label" => "Nama:", "suffix" => ""],
         "email" => ["label" => "Email:", "suffix" => ""],
-        "pesan" => ["label" => "Pesan:", "suffix" => ""],
+        "pesan" => ["label" => "Pesan Anda:", "suffix" => ""]
       ];
       ?>
 
       <br>
       <hr>
       <h2>Yang menghubungi kami</h2>
-      <?= tampilkanBiodata($fielkontak, $kontak); ?>
-
+      <?= tampilkanBiodata($fieldContact, $contact) ?>
     </section>
   </main>
 
