@@ -1,6 +1,11 @@
 <?php
 session_start();
 require_once __DIR__ . '/fungsi.php';
+$a = rand(1, 9);
+$b = rand(1, 9);
+
+$_SESSION['captcha_result'] = $a + $b;
+
 ?>
 
 <!DOCTYPE html>
@@ -144,6 +149,11 @@ require_once __DIR__ . '/fungsi.php';
         <label for="txtPesan"><span>Pesan Anda:</span>
           <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
           <small id="charCount">0/200 karakter</small>
+        </label>
+
+        <label for="txtCaptcha">
+          <span>Captcha (<?= $a ?> + <?= $b ?> = ?)</span>
+          <input type="text" id="txtCaptcha" name="txtCaptcha" placeholder="jawabannya" required>
         </label>
 
         <button type="submit">Kirim</button>
