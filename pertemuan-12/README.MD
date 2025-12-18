@@ -6,3 +6,4 @@ NAMA: YOZALIA ILMANDRA <br>
 Hari ini, kamis 18 desember 2025 saya belajar:<br>
 <ol>
 <li> mengcopy bahan ajar dari pertemuan 11 ke 12</li>
+<li> menambahkan aksi di read.php</li>
