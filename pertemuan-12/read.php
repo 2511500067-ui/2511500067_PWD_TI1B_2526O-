@@ -21,7 +21,23 @@ unset($_SESSION['flash_sukses'], $_SESSION['flash_error']);
     </div>
 <?php endif; ?>
 
+<?php if (!empty($flash_error)) : ?>
+    <div style="padding:10px; margin-bottom:10px;
+    background:#f8d7da; color:#721c24; border-radius:6px;">
+        <?= $flash_error; ?>
+    </div>
+<?php endif; ?>
 
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>No</th>
+        <th>Aksi</th>
+        <th>ID</th>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Pesan</th>
+        <th>created At</th>
+    </tr>
     <?php $No = 1; ?>
     <?php while ($row = mysqli_fetch_assoc($q)) : ?>
         <tr>
