@@ -6,3 +6,5 @@ NAMA: YOZALIA ILMANDRA <br>
 Hari ini, sabtu 10 januari saya belajar:<br>
 <ol>
 <li>import sql bahan ajar pertemuan-13</li>
+<li>menambahkan file delete ke proses_update.php</li>
+</ol>
