@@ -1,1 +1,8 @@
 # pertemuan-13
+
+NIM: 2511500067<br>
+NAMA: YOZALIA ILMANDRA <br>
+<br></br>
+Hari ini, sabtu 10 januari saya belajar:<br>
+<ol>
+<li>import sql bahan ajar pertemuan-13</li>

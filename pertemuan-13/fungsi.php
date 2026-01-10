@@ -4,6 +4,7 @@ function redirect_ke($url)
   header("Location: " . $url);
   exit();
 }
+
 function bersihkan($str)
 {
   return htmlspecialchars(trim($str));
@@ -16,7 +17,7 @@ function tidakKosong($str)
 
 function formatTanggal($tgl)
 {
-  return date("d M Y", strtotime($tgl));
+  return date("d M Y H:i:s", strtotime($tgl));
 }
 
 function tampilkanBiodata($conf, $arr)
