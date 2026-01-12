@@ -6,4 +6,5 @@ NAMA: YOZALIA ILMANDRA <br>
 Hari ini, senin 12 januari saya belajar:<br>
 <ol>
 <li> mengekstrak bahan tryout ke pertemuan 15</li>
+<li> mengubah konfirmasi penghapusan</li>
 </ol>
